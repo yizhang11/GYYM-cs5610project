@@ -1,0 +1,48 @@
+<form (ngSubmit)="updateCoach()" #f="ngForm">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-start">
+    <a class="nav-item nav-link" routerLink="/admin/coach">
+      <i class="fas fa-chevron-left black-icons"></i></a>
+    <a class="navbar-brand  white-icons">Coach Edit</a>
+    <a class="nav-item nav-link ml-auto" (click)="updateCoach()"
+       routerLink="/admin/coach">
+      <i class="fas fa-check black-icons"></i></a>
+  </nav>
+
+  <div class="container cl-container-padding move-up" *ngIf="coach">
+
+    <div class="form-group" >
+      <label for="coach-username">Username</label>
+      <input type="text" class="form-control" id="coach-username" placeholder="Username" name="username"
+             ngModel required #username="ngModel" [(ngModel)]="coach.username">
+    </div>
+    <span class="help-block" *ngIf="!username.valid">
+          Please enter username!
+        </span>
+    <div class="form-group" >
+      <label for="coach-password">Password</label>
+      <input type="password" class="form-control" id="coach-password" placeholder="######" name="password"
+             ngModel required #password="ngModel" [(ngModel)]="coach.password">
+    </div>
+    <span class="help-block" *ngIf="!username.valid">
+          Please enter password!
+        </span>
+
+    <div class="form-group" *ngIf="coach">
+      <label for="image-URL">Photo URL</label>
+      <input [(ngModel)]="coach.photo_url"
+             type="text"
+             name="url"
+             class="form-control"
+             id="image-URL"
+             placeholder="url"/>
+    </div>
+
+    <a class="btn btn-danger  btn-block" routerLink="/admin/coach"
+       (click)="deleteCoach()">Delete Coach</a>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-primary bg-light justify-content-start fixed-bottom">
+    <a class="nav-item nav-link ml-auto navblack" routerLink="/admin"><i class="  fas fa-user"></i></a>
+  </nav>
+
+</form>

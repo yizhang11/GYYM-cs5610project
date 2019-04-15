@@ -1,0 +1,40 @@
+<form (ngSubmit)="updateClass()" #f="ngForm">
+  <div class="col-12 col-sm-8 p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-start">
+      <a class="nav-item nav-link navblack d-sm-none" routerLink="/coach/class">
+        <i class="fas fa-chevron-left white-icons move-left"></i></a>
+      <a class="navbar-brand pl-4 " [routerLink]="">Edit Class</a>
+      <a class="nav-item nav-link ml-auto" routerLink="/website" (click)="updateClass()">
+        <i class=" navblack fas fa-check white-icons move-right" ></i></a>
+    </nav>
+  </div>
+
+  <div class="col-12 col-sm-8 move-up">
+    <div class="form-group">
+      <label for="website-name">Name</label>
+      <input type="text" id="website-name" name="classname" placeholder="Name" class="form-control"
+             ngModel required #classname="ngModel" [(ngModel)] = newClass.name>
+    </div>
+    <span class="help-block" *ngIf="!classname.valid">
+            Please enter class name!
+          </span>
+    <div class="form-group">
+      <label for="class-description">Description</label>
+      <textarea id="class-description" class="form-control" rows="5" placeholder="Description" name="description"
+                ngModel required #description="ngModel" [(ngModel)] = newClass.description></textarea>
+    </div>
+    <div class="form-group">
+      <label for="class-time">Time</label>
+      <input type="datetime-local" id="class-time"
+             name="meeting-time" min="{{currentTime}}" [(ngModel)] = newClass.time>
+    </div>
+  </div>
+  <nav class="navbar fixed-bottom bg-primary navbar-dark justify-content-end">
+    <div class="container-fuild">
+      <a routerLink="/coach/profile" class="navbar-link navbar-text float-right ">
+        <i class="fas fa-user white-icons"></i>
+      </a>
+    </div>
+  </nav>
+</form>
+

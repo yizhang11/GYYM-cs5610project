@@ -1,0 +1,18 @@
+<nav class="navbar sticky-top navbar-dark bg-primary">
+  <a class="nav-item nav-link" (click)="goBack()" >
+    <i class="fas fa-chevron-left black-icons"></i></a>
+  <span class="navbar-brand">Coach Profile</span>
+</nav>
+
+<div class="container">
+  <img class="img-responsive img-rounded cl-widget-images" [src]="coach.photo_url">
+  <div class="form-group move-down" *ngIf="coach">
+    <h3>{{coach.firstName}} {{coach.lastName}}</h3>
+    <p>{{coach.expertise}}</p>
+    <p>{{coach.brief}}</p>
+  </div>
+</div>
+
+<nav class="navbar fixed-bottom navbar-dark bg-primary">
+  <a class = "navbar-brand" id="hidden">hidden bottom</a>
+</nav>

@@ -1,0 +1,35 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-start">
+  <a class="nav-item nav-link" routerLink="/admin" >
+    <i class="fas fa-chevron-left black-icons"></i></a>
+  <a class="navbar-brand  white-icons" >Classes</a>
+</nav>
+
+<div class="content container cl-container-padding mt-5" *ngIf="classes">
+  <div class="class-list">
+    <table class="table table-borderless">
+      <tbody>
+      <tr>
+        <td></td>
+        <th>Class Name</th>
+        <th>Time</th>
+        <th>Coach</th>
+        <th>Location</th>
+        <th>Approve</th>
+        <th>Delete</th>
+      </tr>
+      <tr *ngFor="let c of classes">
+        <td>{{c.name}}</td>
+        <td><input type="datetime-local" value="{{c.time}}" readonly></td>
+        <td>{{c.coachName}}</td>
+        <td><input type="text" placeholder="None" [(ngModel)]="c.location"></td>
+        <td><a (click)="approveClass(c)" class="btn btn-primary btn-block"><i class="fas fa-check-square"></i></a></td>
+        <td><a (click)="deleteClass(c)" class="btn btn-primary btn-block"><i class="fas fa-trash-alt"></i></a></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-primary bg-light justify-content-start fixed-bottom">
+  <a class="nav-item nav-link ml-auto navblack" routerLink="/admin"><i class="  fas fa-user"></i></a>
+</nav>

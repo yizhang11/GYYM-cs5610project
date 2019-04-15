@@ -1,0 +1,32 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-start">
+  <a class="nav-item nav-link" routerLink="/admin" >
+    <i class="fas fa-chevron-left black-icons"></i></a>
+  <a class="navbar-brand  white-icons" >Users</a>
+</nav>
+
+<div class="content container cl-container-padding mt-5" *ngIf="users">
+  <div class="user-list">
+    <table class="table table-borderless">
+      <tbody>
+      <tr>
+        <td></td>
+        <th>User Name</th>
+        <th>Email</th>
+        <th>Membership</th>
+        <th>Update</th>
+      </tr>
+      <tr *ngFor="let user of users">
+        <td>{{user.firstName}} {{user.lastName}}</td>
+        <td>{{user.email}}</td>
+        <td><input type="date" id="membership"
+                   name="membership" [(ngModel)]="user.membership"></td>
+        <td><a (click)="updateUser(user)" class="btn btn-primary btn-block">Update</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-primary bg-light justify-content-start fixed-bottom">
+  <a class="nav-item nav-link ml-auto navblack" routerLink="/admin"><i class="  fas fa-user"></i></a>
+</nav>

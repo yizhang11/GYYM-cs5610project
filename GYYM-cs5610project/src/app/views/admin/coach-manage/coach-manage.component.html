@@ -1,0 +1,32 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-start">
+  <a class="nav-item nav-link" routerLink="/admin" >
+    <i class="fas fa-chevron-left black-icons"></i></a>
+  <a class="navbar-brand  white-icons" >Coaches</a>
+</nav>
+
+<div class="content container cl-container-padding mt-5" *ngIf="coaches">
+  <div class="coach-list">
+    <table class="table table-borderless">
+      <tbody>
+      <tr>
+        <td></td>
+        <th>Coach Name</th>
+        <th>Expertise</th>
+        <th>Brief</th>
+        <th>Photo</th>
+      </tr>
+      <tr *ngFor="let coach of coaches">
+        <td><a routerLink="/admin/coach/{{coach._id}}">{{coach.firstName}} {{coach.lastName}}</a></td>
+          <td>{{coach.expertise}}</td>
+          <td>{{coach.brief}}</td>
+          <td><img [src]="coach.photo_url"></td>
+      </tr>
+      </tbody>
+    </table>
+    <a (click)="createCoach()" class="btn btn-primary btn-block">New Coach</a>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-primary bg-light justify-content-start fixed-bottom">
+  <a class="nav-item nav-link ml-auto navblack" routerLink="/admin"><i class="  fas fa-user"></i></a>
+</nav>

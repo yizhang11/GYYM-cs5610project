@@ -1,0 +1,35 @@
+<nav class="navbar sticky-top navbar-dark bg-primary">
+  <span class="navbar-brand">Profile</span>
+  <a class="nav-item nav-link ml-auto" [routerLink]="" (click)="updateCoach()">
+    <i class="fas fa-check white-icons"></i></a>
+</nav>
+
+<div class="container">
+  <img class="img-responsive img-rounded cl-widget-images" [src]="coach.photo_url">
+  <div class="form-group move-down" *ngIf="coach">
+    <label for="first-name">First Name</label>
+    <input type="text" class="form-control" id="first-name" placeholder="Alice" [(ngModel)]="coach.firstName">
+  </div>
+  <div class="form-group" *ngIf="coach">
+    <label for="last-name">Last Name</label>
+    <input type="text" class="form-control" id="last-name" placeholder="Wonderland" [(ngModel)]="coach.lastName">
+  </div>
+  <div class="form-group" *ngIf="coach">
+    <label for="expertise">Expertise</label>
+    <input type="text" class="form-control" id="expertise" placeholder="Invalid" [(ngModel)]="coach.expertise">
+  </div>
+  <div class="form-group" *ngIf="coach">
+    <label for="brief">Brief</label>
+    <input type="text" class="form-control" id="brief" placeholder="alice@wonderland.com" [(ngModel)]="coach.brief">
+  </div>
+
+  <a class="btn btn-primary btn-block"
+     routerLink="/coach/class">View classes</a>
+  <a class="btn btn-danger  btn-block"
+     (click)="logout()" routerLink="/login">Logout</a>
+</div>
+
+<nav class="navbar fixed-bottom navbar-dark bg-primary">
+  <a class = "navbar-brand" id="hidden">hidden bottom</a>
+</nav>
+

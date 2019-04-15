@@ -1,0 +1,38 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-start">
+  <a class="nav-item nav-link" routerLink="/coach/profile" >
+    <i class="fas fa-chevron-left black-icons"></i></a>
+  <a class="navbar-brand  white-icons" >Classes</a>
+</nav>
+
+<div class="content container cl-container-padding mt-5" *ngIf="classes">
+  <div class="class-list">
+    <table class="table table-borderless">
+      <tbody>
+      <tr>
+        <td></td>
+        <th>Class Name</th>
+        <th>Description</th>
+        <th>Time</th>
+        <th>Location</th>
+        <th>Approved</th>
+        <th>Weather</th>
+      </tr>
+      <tr *ngFor="let c of classes">
+          <td><a routerLink="/class/{{c._id}}">{{c.name}}</a></td>
+          <td>{{c.description}}</td>
+          <td><input type="datetime-local" value="{{c.time}}" readonly></td>
+          <td>{{c.location}}</td>
+          <td>{{c.approved}}</td>
+          <td><img [src]="getWeather(c)"></td>
+      </tr>
+      </tbody>
+    </table>
+    <a class="btn btn-primary btn-block"
+       routerLink="/class/new">New class</a>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-primary bg-light justify-content-start fixed-bottom">
+  <a class="nav-item nav-link ml-auto navblack" routerLink="/coach/profile"><i class="  fas fa-user"></i></a>
+</nav>
+

@@ -1,0 +1,39 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-start">
+  <a class="nav-item nav-link" (click)="goBack()" >
+    <i class="fas fa-chevron-left black-icons"></i></a>
+  <a class="navbar-brand  white-icons" >Classes</a>
+</nav>
+
+<div class="content container cl-container-padding mt-5" *ngIf="classes">
+  <div class="class-list">
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td></td>
+            <th>Class Name</th>
+            <th>Description</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Coach</th>
+            <th>Weather</th>
+          </tr>
+          <tr *ngFor="let c of classes">
+            <div  *ngIf="c.approved">
+              <td>{{c.name}}</td>
+              <td>{{c.description}}</td>
+              <td><input type="datetime-local" value="{{c.time}}" readonly></td>
+              <td>{{c.location}}</td>
+              <td><a routerLink="{{c.coachUrl}}">{{c.coachName}}</a></td>
+              <td><img [src]="getWeather(c)"></td>
+            </div>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-primary bg-light justify-content-start fixed-bottom">
+  <a class="nav-item nav-link navblack " routerLink="/intro">
+    <i class="fas fa-home"></i></a>
+  <a class="nav-item nav-link ml-auto navblack" routerLink="/user/profile"><i class="  fas fa-user"></i></a>
+</nav>
