@@ -32,7 +32,7 @@ module.exports = function (app) {
       .findCoachByName(username)
       .then(
         function(coach) {
-          if(coach && bcrypt.compareSync(password, coach.password)) {
+          if(coach && password === coach.password) {
             console.log('coach server password match');
             return done(null, coach);
           } else {
@@ -94,7 +94,6 @@ module.exports = function (app) {
   function updateCoach(req, res){
     let coach = req.body;
     let coachId = req.params["coachId"];
-    coach.password = bcrypt.hashSync(coach.password);
     console.log('coach server update' + coach);
     coachModel
       .updateCoach(coachId,coach)
