@@ -4,6 +4,8 @@
 
 **Group project:** interactive website for Gym YY
 
+**Heroku link:** https://gyym-cs5610final.herokuapp.com/
+
 **Problem statement**
 * Due to space and time constraints, people can only choose one or two ways to work out.
 * Traditionally people often need to go to the gym themselves to find information about classes or coaches.
