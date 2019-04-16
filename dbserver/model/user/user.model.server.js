@@ -39,7 +39,7 @@ function findByCredential(username,password){
 function updateUser(userId,user) {
   console.log('user model update: ' + user);
   delete user._id;
-  return userModel.findOneAndUpdate(userId,user);
+  return userModel.findOneAndUpdate({_id: userId},user);
 }
 
 function deleteUser(userId){
