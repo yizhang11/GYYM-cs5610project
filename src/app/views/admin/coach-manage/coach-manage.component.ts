@@ -33,7 +33,7 @@ export class CoachManageComponent implements OnInit {
     };
     console.log('new coach: ' + coach);
     this.coachService.createCoach(coach).subscribe((data: any) => {
-      console.log(data);
+      console.log(data._id);
       this.router.navigate(['/admin/coach/' + data._id]);
     });
   }

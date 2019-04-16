@@ -35,7 +35,7 @@ function findCoachByCredential(username,password){
 function updateCoach(coachId,coach) {
   console.log('coach model update: ' + JSON.stringify(coach));
   delete coach._id;
-  return coachModel.findOneAndUpdate(coachId,coach);
+  return coachModel.findOneAndUpdate({_id: coachId},coach);
 }
 
 function deleteCoach(coachId){

@@ -1,11 +1,10 @@
 <form (ngSubmit)="updateCoach()" #f="ngForm">
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark justify-content-start">
     <a class="nav-item nav-link" routerLink="/admin/coach">
-      <i class="fas fa-chevron-left black-icons"></i></a>
-    <a class="navbar-brand  white-icons">Coach Edit</a>
-    <a class="nav-item nav-link ml-auto" (click)="updateCoach()"
-       routerLink="/admin/coach">
-      <i class="fas fa-check black-icons"></i></a>
+      <i class="fas fa-chevron-left white-icons"></i></a>
+    <a class="navbar-brand  white-icons white" [routerLink]="">Coach Edit</a>
+    <a class="nav-item nav-link ml-auto" (click)="updateCoach()" [routerLink]="">
+      <i class="fas fa-check white-icons"></i></a>
   </nav>
 
   <div class="container cl-container-padding move-up" *ngIf="coach">

@@ -27,6 +27,7 @@ export class ClassManageComponent implements OnInit {
   deleteClass(c: any) {
     this.classService.deleteClass(c._id).subscribe((data: any) => {
       console.log('class deleted' + c.name);
+      window.location.reload();
     })
   }
 

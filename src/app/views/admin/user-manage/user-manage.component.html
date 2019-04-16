@@ -9,12 +9,14 @@
     <table class="table table-borderless">
       <tbody>
       <tr>
+        <th>Account</th>
         <th>User Name</th>
         <th>Email</th>
         <th>Membership</th>
         <th>Update</th>
       </tr>
       <tr *ngFor="let user of users">
+        <td>{{user.username}}</td>
         <td>{{user.firstName}} {{user.lastName}}</td>
         <td>{{user.email}}</td>
         <td><input type="date" id="membership"

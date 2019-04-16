@@ -3,42 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="9fdaaea0-cd76-43a7-98b2-fe90c71b3bb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbserver/model/coach/coach.model.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dbserver/model/coach/coach.model.server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbserver/services/user.service.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dbserver/services/user.service.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gyym/3rdpartylicenses.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/gyym/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/gyym/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gyym/main.2896056c17ce9172d046.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gyym/polyfills.f5ce8ecea387adbb1689.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gyym/runtime.b57bf819d5bdce77f1c7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gyym/styles.43eb3fa3e0fb99aa677f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gyym/main.84a222897953c483c1da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/admin/manage/manage.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/manage/manage.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/admin/manage/manage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/manage/manage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home/home-page/home-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home/home-page/home-page.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home/home-page/home-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home/login/login.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/user/register/register.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/user/register/register.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/user/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/user/register/register.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,10 +29,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.html">
+        <entry file="file://$PROJECT_DIR$/dbserver/services/user.service.server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="34" column="105" selection-start-line="34" selection-start-column="105" selection-end-line="34" selection-end-column="105" />
+            <state relative-caret-position="390">
+              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/home/login/login.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/user/register/register.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-165">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/admin/manage/manage.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="93" selection-start-line="1" selection-start-column="93" selection-end-line="1" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -76,10 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GYYM-cs5610project/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/GYYM-cs5610project/src/app/views/coach/coach-class/coach-class.component.html" />
-        <option value="$PROJECT_DIR$/GYYM-cs5610project/src/app/views/coach/coach-profile/coach-profile.component.css" />
-        <option value="$PROJECT_DIR$/GYYM-cs5610project/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/GYYM-cs5610project/src/app/views/admin/manage/manage.component.html" />
         <option value="$PROJECT_DIR$/GYYM-cs5610project/src/app/views/user/user-profile/user-profile.component.html" />
         <option value="$PROJECT_DIR$/GYYM-cs5610project/src/app/views/coach/coach-profile/coach-profile.component.html" />
@@ -97,7 +151,6 @@
         <option value="$PROJECT_DIR$/dbserver/services/class.service.server.js" />
         <option value="$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.ts" />
         <option value="$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.ts" />
-        <option value="$PROJECT_DIR$/dbserver/services/user.service.server.js" />
         <option value="$PROJECT_DIR$/src/app/views/home/home-page/home-page.component.css" />
         <option value="$PROJECT_DIR$/src/app/views/home/home-page/home-page.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.css" />
@@ -108,25 +161,30 @@
         <option value="$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.css" />
         <option value="$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.css" />
-        <option value="$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.css" />
         <option value="$PROJECT_DIR$/src/app/views/admin/manage/manage.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/admin/manage/manage.component.css" />
         <option value="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.css" />
-        <option value="$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.css" />
-        <option value="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.css" />
         <option value="$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.css" />
         <option value="$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.html" />
-        <option value="$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.css" />
-        <option value="$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.html" />
-        <option value="$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.html" />
         <option value="$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.css" />
+        <option value="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.ts" />
+        <option value="$PROJECT_DIR$/dbserver/model/coach/coach.model.server.js" />
+        <option value="$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.html" />
+        <option value="$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.html" />
+        <option value="$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.html" />
+        <option value="$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.html" />
+        <option value="$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.html" />
+        <option value="$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.html" />
+        <option value="$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.css" />
+        <option value="$PROJECT_DIR$/dbserver/services/user.service.server.js" />
       </list>
     </option>
   </component>
@@ -158,6 +216,32 @@
             <path>
               <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
               <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="dbserver" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="dbserver" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="coach" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="dbserver" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="dbserver" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -165,6 +249,13 @@
               <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
@@ -180,6 +271,24 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="class-manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="coach-manage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
@@ -196,7 +305,148 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user-manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="class-edit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="class-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="class-new" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="coach" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="coach" type="462c0819:PsiDirectoryNode" />
+              <item name="coach-class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="coach" type="462c0819:PsiDirectoryNode" />
+              <item name="coach-display" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="coach" type="462c0819:PsiDirectoryNode" />
+              <item name="coach-profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="home-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="intro-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GYYM-cs5610project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GYYM-cs5610project" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +507,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82177000" />
+    <option name="totallyTimeSpent" value="84111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,9 +519,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -286,7 +536,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3277311" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,14 +546,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/src/environments/environment.prod.ts" />
-    <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/Procfile" />
-    <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/package.json" />
-    <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/src/environments/environment.ts" />
-    <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/dbserver/model/admin/admin.schema.server.js" />
-    <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/server.js" />
     <entry file="file://$PROJECT_DIR$/GYYM-cs5610project/dbserver/model/admin/admin.model.server.js" />
     <entry file="file://$PROJECT_DIR$/dbserver/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -344,27 +586,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="435">
           <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbserver/services/class.service.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
         </state>
       </provider>
     </entry>
@@ -395,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/home/home-page/home-page.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -409,31 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/home/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/home/login/login.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/user/register/register.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -458,31 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/admin/manage/manage.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -493,38 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbserver/services/user.service.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="31" column="97" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="97" />
         </state>
       </provider>
     </entry>
@@ -535,31 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -570,20 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -591,10 +705,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dbserver/model/user/user.model.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbserver/model/coach/coach.model.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/coach.service.client.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbserver/services/class.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1145">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbserver/services/coach.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/class-manage/class-manage.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/user-manage/user-manage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/class/class-list/class-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/class/class-edit/class-edit.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/class/class-new/class-new.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-class/coach-class.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="34" column="105" selection-start-line="34" selection-start-column="105" selection-end-line="34" selection-end-column="105" />
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-display/coach-display.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/coach/coach-profile/coach-profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/home/home-page/home-page.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/home/intro-page/intro-page.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/home/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/user/register/register.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/user/user-profile/user-profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/manage/manage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="93" selection-start-line="1" selection-start-column="93" selection-end-line="1" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-manage/coach-manage.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/admin/coach-new/coach-new.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbserver/services/user.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
         </state>
       </provider>
     </entry>
