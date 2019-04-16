@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  baseUrl: 'https://gyym-cs5610final.herokuapp.com'
 };

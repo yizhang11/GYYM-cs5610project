@@ -11,37 +11,29 @@ module.exports = function (app) {
   app.get("/api/coach/find/:cname", findCoachByName);
   app.put("/api/coach/:coachId", updateCoach);
   app.delete("/api/coach/:coachId", deleteCoach);
-  app.post  ('/api/coach/login', passport.authenticate('local'), login);
-  app.get ('/api/coach/loggedin', coachloggedin);
+  app.post  ('/api/coach/login', passport.authenticate('coach-local'), login);
+  app.get ('/api/coachloggedin', coachloggedin);
 
-  passport.serializeUser(serializeUser);
-  passport.deserializeUser(deserializeUser);
+  //passport.serializeUser(serializeUser);
+  //passport.deserializeUser(deserializeUser);
 
-  passport.use(new LocalStrategy(localStrategy));
+  passport.use('coach-local', new LocalStrategy(coachLocalStrategy));
 
   function serializeUser(coach, done) {
     done(null, coach);
   }
 
   function deserializeUser(coach, done) {
-    coachModel
-      .findCoachById(coach._id)
-      .then(
-        function(coach){
-          done(null, coach);
-        },
-        function(err){
-          done(err, null);
-        }
-      );
+
   }
 
-  function localStrategy(username, password, done) {
+  function coachLocalStrategy(username, password, done) {
     coachModel
       .findCoachByName(username)
       .then(
         function(coach) {
           if(coach && bcrypt.compareSync(password, coach.password)) {
+            console.log('coach server password match');
             return done(null, coach);
           } else {
             return done(null, false);
@@ -55,6 +47,7 @@ module.exports = function (app) {
 
   function createCoach(req, res) {
     let coach = req.body;
+    console.log('coach server creat:' + coach);
     coachModel
       .createCoach(coach)
       .then(
@@ -101,6 +94,7 @@ module.exports = function (app) {
   function updateCoach(req, res){
     let coach = req.body;
     let coachId = req.params["coachId"];
+    coach.password = bcrypt.hashSync(coach.password);
     console.log('coach server update' + coach);
     coachModel
       .updateCoach(coachId,coach)

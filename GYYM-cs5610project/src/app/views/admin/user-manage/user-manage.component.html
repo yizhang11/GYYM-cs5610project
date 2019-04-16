@@ -9,7 +9,6 @@
     <table class="table table-borderless">
       <tbody>
       <tr>
-        <td></td>
         <th>User Name</th>
         <th>Email</th>
         <th>Membership</th>
@@ -20,7 +19,7 @@
         <td>{{user.email}}</td>
         <td><input type="date" id="membership"
                    name="membership" [(ngModel)]="user.membership"></td>
-        <td><a (click)="updateUser(user)" class="btn btn-primary btn-block">Update</a></td>
+        <td><a (click)="updateUser(user)" [routerLink]="" class="btn btn-primary btn-block">Update</a></td>
       </tr>
       </tbody>
     </table>

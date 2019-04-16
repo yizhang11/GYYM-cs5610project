@@ -48,7 +48,7 @@ export class CoachService {
   }
 
   loggedIn() {
-    return this._http.get(this.baseUrl + '/api/coach/loggedIn', {headers: this.options, withCredentials: true})
+    return this._http.get(this.baseUrl + '/api/coachloggedIn', {headers: this.options, withCredentials: true})
       .pipe(map(
         (res: any) => {
           // const user = JSON.stringify(res);

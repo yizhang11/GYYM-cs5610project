@@ -10,7 +10,7 @@ let userSchema = new mongoose.Schema({
   membership: String,
   photo_url: String,
   dateCreated: {type: Date, default: Date.now()},
-  facebook: { id: String,  token: String }
+  facebook: { id: String,  token: String },
 },{collection:'Users'});
 
 module.exports = userSchema;

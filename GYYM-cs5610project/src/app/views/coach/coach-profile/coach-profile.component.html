@@ -5,7 +5,9 @@
 </nav>
 
 <div class="container">
-  <img class="img-responsive img-rounded cl-widget-images" [src]="coach.photo_url">
+  <div class="imgbox">
+    <img class="center-fit" [src]="coach.photo_url" [width]="200">
+  </div>
   <div class="form-group move-down" *ngIf="coach">
     <label for="first-name">First Name</label>
     <input type="text" class="form-control" id="first-name" placeholder="Alice" [(ngModel)]="coach.firstName">
@@ -16,11 +18,11 @@
   </div>
   <div class="form-group" *ngIf="coach">
     <label for="expertise">Expertise</label>
-    <input type="text" class="form-control" id="expertise" placeholder="Invalid" [(ngModel)]="coach.expertise">
+    <input type="text" class="form-control" id="expertise" placeholder="None" [(ngModel)]="coach.expertise">
   </div>
   <div class="form-group" *ngIf="coach">
     <label for="brief">Brief</label>
-    <input type="text" class="form-control" id="brief" placeholder="alice@wonderland.com" [(ngModel)]="coach.brief">
+    <input type="text" class="form-control" id="brief" placeholder="None" [(ngModel)]="coach.brief">
   </div>
 
   <a class="btn btn-primary btn-block"
@@ -29,7 +31,7 @@
      (click)="logout()" routerLink="/login">Logout</a>
 </div>
 
-<nav class="navbar fixed-bottom navbar-dark bg-primary">
+<nav class="navbar bg-primary navbar-dark justify-content-end">
   <a class = "navbar-brand" id="hidden">hidden bottom</a>
 </nav>
 

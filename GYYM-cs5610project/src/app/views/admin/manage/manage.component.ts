@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {AdminService} from "../../../services/admin.service.client";
 
 @Component({
   selector: 'app-manage',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ManageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private adminService: AdminService) { }
 
   ngOnInit() {
+  }
+
+  logout() {
+    this.adminService.logout().subscribe();
   }
 
 }

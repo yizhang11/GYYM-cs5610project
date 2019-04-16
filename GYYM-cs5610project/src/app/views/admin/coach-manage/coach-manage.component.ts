@@ -29,7 +29,8 @@ export class CoachManageComponent implements OnInit {
       expertise: '',
       brief: '',
       photo_url: '',
-    }
+      type: 'coach'
+    };
     console.log('new coach: ' + coach);
     this.coachService.createCoach(coach).subscribe((data: any) => {
       console.log(data);

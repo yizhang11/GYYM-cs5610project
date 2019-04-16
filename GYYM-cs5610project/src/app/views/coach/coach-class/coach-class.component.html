@@ -9,7 +9,6 @@
     <table class="table table-borderless">
       <tbody>
       <tr>
-        <td></td>
         <th>Class Name</th>
         <th>Description</th>
         <th>Time</th>
@@ -23,7 +22,8 @@
           <td><input type="datetime-local" value="{{c.time}}" readonly></td>
           <td>{{c.location}}</td>
           <td>{{c.approved}}</td>
-          <td><img [src]="getWeather(c)"></td>
+          <td><img [src]="c.weather"></td>
+        <!--<img [src]="getWeather(c)">-->
       </tr>
       </tbody>
     </table>

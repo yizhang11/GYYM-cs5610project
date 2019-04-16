@@ -1,15 +1,17 @@
-<div class="container-fluid">
+<div class="container">
   <h1>Manage</h1>
     <div class="form-group">
       <button class="btn btn-primary btn-block" routerLink="/admin/coach">Coaches</button>
     </div>
 
     <div class="form-group">
-      <a routerLink="/admin/user" class="btn btn-success btn-block">User</a>
+      <a routerLink="/admin/user" class="btn btn-success btn-block">Users</a>
     </div>
 
     <div class="form-group">
       <a routerLink="/admin/class" class="btn btn-primary btn-block">Classes</a>
     </div>
+  <a class="btn btn-danger  btn-block"
+     (click)="logout()" routerLink="/login">Logout</a>
 </div>
 

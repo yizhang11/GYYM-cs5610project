@@ -20,7 +20,14 @@ export class ClassListComponent implements OnInit {
     this.classService.findAllClass().subscribe((data: any) => {
       this.classes = data;
       console.log(this.classes);
-    });
+      this.classes.forEach(c => {
+        console.log('try to get weather for: ' + c.name);
+        this.weatherService.getWeather(c.time).subscribe((data: any) => {
+          console.log('weather icon: ' + data);
+          c.weather = data;
+        });
+      })
+    })
   }
 
   coachInfo(c: any){
@@ -37,10 +44,6 @@ export class ClassListComponent implements OnInit {
 
   goBack() {
     window.history.back();
-  }
-
-  getWeather(c: any) {
-    return this.weatherService.getWeather(c.time);
   }
 
 }

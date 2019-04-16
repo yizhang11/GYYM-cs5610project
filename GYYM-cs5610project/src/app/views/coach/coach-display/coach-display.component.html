@@ -1,15 +1,16 @@
 <nav class="navbar sticky-top navbar-dark bg-primary">
-  <a class="nav-item nav-link" (click)="goBack()" >
+  <a class="nav-item nav-link" (click)="goBack()" [routerLink]="">
     <i class="fas fa-chevron-left black-icons"></i></a>
   <span class="navbar-brand">Coach Profile</span>
 </nav>
 
 <div class="container">
-  <img class="img-responsive img-rounded cl-widget-images" [src]="coach.photo_url">
+
   <div class="form-group move-down" *ngIf="coach">
+    <img class="img-responsive img-rounded cl-widget-images" [src]="coach.photo_url" [width]="300">
     <h3>{{coach.firstName}} {{coach.lastName}}</h3>
-    <p>{{coach.expertise}}</p>
-    <p>{{coach.brief}}</p>
+    <p>Expertise: {{coach.expertise}}</p>
+    <p>Brief: {{coach.brief}}</p>
   </div>
 </div>
 

@@ -2,6 +2,7 @@ module.exports = function (app) {
 
   const userModel = require('../model/user/user.model.server');
   const adminModel = require('../model/admin/admin.model.server');
+  const coachModel = require('../model/coach/coach.model.server');
   const passport = require('passport');
   const LocalStrategy = require('passport-local').Strategy;
   const FacebookStrategy = require('passport-facebook').Strategy;
@@ -18,16 +19,18 @@ module.exports = function (app) {
   })
   const upload = multer({ storage: storage });
 
-  // const facebookConfig = {
-  //   clientID: process.env.FACEBOOK_CLIENT_ID,
-  //   clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
-  //   callbackURL: process.env.FACEBOOK_CALLBACK_URL
-  // };
   const facebookConfig = {
-      clientID: 610435949421259,
-      clientSecret: '4df0f4b575232a68cb9f04a23698c528',
-      callbackURL: '/auth/facebook/callback'
+    clientID: process.env.FACEBOOK_CLIENT_ID,
+    clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
+    callbackURL: process.env.FACEBOOK_CALLBACK_URL,
+    profileFields: ['id', 'displayName', 'name', 'emails', 'picture.type(large)']
   };
+  // const facebookConfig = {
+  //     clientID: 2271207789606841,
+  //     clientSecret: 'f04e90ee8793a11f1748b92af5e06985',
+  //     callbackURL: '/auth/facebook/callback',
+  //     profileFields: ['id', 'displayName', 'name', 'emails', 'picture.type(large)']
+  // };
 
   app.post("/api/user", createUser);
   app.get("/api/user", findAllUser);
@@ -40,7 +43,7 @@ module.exports = function (app) {
   app.post  ('/api/login', passport.authenticate('user-local'), login);
   app.get ('/facebook/login', passport.authenticate('facebook', { scope : 'email' }));
   app.get('/auth/facebook/callback',
-    passport.authenticate('facebook', {  successRedirect: '/#/profile/',  failureRedirect: '/#/login' }));
+    passport.authenticate('facebook', {  successRedirect: '/#/user/profile/',  failureRedirect: '/#/login' }));
   app.post ("/api/upload", upload.single('myFile'), uploadImage);
 
   passport.serializeUser(userSerializeUser);
@@ -56,25 +59,37 @@ module.exports = function (app) {
   }
 
   function userDeserializeUser(user, done) {
-    if (user.type !== "admin") {
-      console.log('instance of user');
-      userModel
-        .findUserById(user._id)
-        .then(
-          function(user){
-            done(null, user);
-          },
-          function(err){
-            done(err, null);
-          }
-        );
-    } else {
+    if (user.type == "admin") {
       console.log('instance of admin');
       adminModel
         .findAdminByName(user.username)
         .then(
           function(admin){
             done(null, admin);
+          },
+          function(err){
+            done(err, null);
+          }
+        );
+    } else if (user.type == "coach") {
+      console.log('instance of coach');
+      coachModel
+        .findCoachByName(user.username)
+        .then(
+          function(coach){
+            done(null, coach);
+          },
+          function(err){
+            done(err, null);
+          }
+        );
+    } else {
+      console.log('instance of user');
+      userModel
+        .findUserById(user._id)
+        .then(
+          function(user){
+            done(null, user);
           },
           function(err){
             done(err, null);
@@ -110,14 +125,17 @@ module.exports = function (app) {
         return user;
       } else {
         const names = profile.displayName.split(" ");
+        console.log('facebook: ' + profile.photos);
         const newFacebookUser = {
           lastName: names[1],
           firstName: names[0],
           email: profile.emails ? profile.emails[0].value : "",
+          photo_url: profile.photos ? profile.photos[0].value : "/assets/image/user/user1.jpeg",
           facebook: {
             id: profile.id,
             token: token
-          }
+          },
+          membership: "",
         };
         return userModel.createUser(newFacebookUser);
       }
@@ -217,6 +235,7 @@ module.exports = function (app) {
     const user = req.body;
     user.password = bcrypt.hashSync(user.password);
     user.membership = '';
+    user.photo_url = '/assets/image/user/user1.jpeg';
     userModel
       .createUser(user)
       .then(
@@ -258,7 +277,7 @@ module.exports = function (app) {
   }
 
   function uploadImage(req, res) {
-    let userId = req.body.userId;
+    let userId = req.user._id;
 
     let width         = req.body.width;
     let myFile        = req.file;
@@ -282,7 +301,7 @@ module.exports = function (app) {
     let size          = myFile.size;
     let mimetype      = myFile.mimetype;
 
-    let url = '/assets/image/user' + filename;
+    let url = '/assets/image/user/' + filename;
     console.log(url);
 
     userModel.findUserById(userId).then(

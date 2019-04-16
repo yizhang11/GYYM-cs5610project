@@ -35,7 +35,7 @@ const routes: Routes = [
   { path: 'admin/coach', component: CoachManageComponent, canActivate: [AuthAdmin]},
   { path: 'admin/coach/:coid', component: CoachNewComponent, canActivate: [AuthAdmin]},
   { path: 'admin/class', component: ClassManageComponent, canActivate: [AuthAdmin]},
-  { path: 'class', component: ClassListComponent },
+  { path: 'class', component: ClassListComponent, canActivate: [AuthGuard]},
   { path: 'class/new', component: ClassNewComponent, canActivate: [AuthCoach]},
   { path: 'class/:cid', component: ClassEditComponent, canActivate: [AuthCoach]},
 ];

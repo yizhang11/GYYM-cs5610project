@@ -9,21 +9,22 @@
     <table class="table table-borderless">
       <tbody>
       <tr>
-        <td></td>
         <th>Coach Name</th>
         <th>Expertise</th>
         <th>Brief</th>
         <th>Photo</th>
+        <th>Edit</th>
       </tr>
       <tr *ngFor="let coach of coaches">
-        <td><a routerLink="/admin/coach/{{coach._id}}">{{coach.firstName}} {{coach.lastName}}</a></td>
+        <td>{{coach.firstName}} {{coach.lastName}}</td>
           <td>{{coach.expertise}}</td>
           <td>{{coach.brief}}</td>
-          <td><img [src]="coach.photo_url"></td>
+          <td><img [src]="coach.photo_url" [width]="150"></td>
+        <td><a routerLink="/admin/coach/{{coach._id}}" class="btn btn-primary btn-block">Edit</a></td>
       </tr>
       </tbody>
     </table>
-    <a (click)="createCoach()" class="btn btn-primary btn-block">New Coach</a>
+    <a (click)="createCoach()" class="btn btn-primary btn-block" [routerLink]="">New Coach</a>
   </div>
 </div>
 

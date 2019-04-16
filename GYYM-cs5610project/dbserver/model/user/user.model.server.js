@@ -20,7 +20,6 @@ function findUserByFacebookId(facebookId) {
 }
 
 function createUser(user) {
-  user.photo_url = '/assets/image/user/user1.jpeg';
   console.log("model"+JSON.stringify(user));
   return userModel.create(user);
 }

@@ -23,7 +23,7 @@
       <input type="password" class="form-control" id="coach-password" placeholder="######" name="password"
              ngModel required #password="ngModel" [(ngModel)]="coach.password">
     </div>
-    <span class="help-block" *ngIf="!username.valid">
+    <span class="help-block" *ngIf="!password.valid">
           Please enter password!
         </span>
 

@@ -29,6 +29,7 @@ import { CoachNewComponent } from './views/admin/coach-new/coach-new.component';
 import { CoachDisplayComponent } from './views/coach/coach-display/coach-display.component';
 import { CoachClassComponent } from './views/coach/coach-class/coach-class.component';
 import {SharedService} from "./services/shared.service.client";
+import {WeatherService} from "./services/weather.service.client";
 
 @NgModule({
   declarations: [
@@ -56,7 +57,7 @@ import {SharedService} from "./services/shared.service.client";
     FormsModule,
     HttpClientModule
   ],
-  providers: [UserService, CoachService, AdminService, ClassService, SharedService, AuthGuard, AuthAdmin, AuthCoach],
+  providers: [UserService, CoachService, AdminService, ClassService, SharedService, AuthGuard, AuthAdmin, AuthCoach, WeatherService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

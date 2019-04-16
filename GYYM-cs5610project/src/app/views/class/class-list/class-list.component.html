@@ -4,12 +4,11 @@
   <a class="navbar-brand  white-icons" >Classes</a>
 </nav>
 
-<div class="content container cl-container-padding mt-5" *ngIf="classes">
+<div class="content container-fluid" *ngIf="classes">
   <div class="class-list">
       <table class="table table-borderless">
         <tbody>
           <tr>
-            <td></td>
             <th>Class Name</th>
             <th>Description</th>
             <th>Time</th>
@@ -17,15 +16,15 @@
             <th>Coach</th>
             <th>Weather</th>
           </tr>
-          <tr *ngFor="let c of classes">
-            <div  *ngIf="c.approved">
-              <td>{{c.name}}</td>
-              <td>{{c.description}}</td>
-              <td><input type="datetime-local" value="{{c.time}}" readonly></td>
-              <td>{{c.location}}</td>
-              <td><a routerLink="{{c.coachUrl}}">{{c.coachName}}</a></td>
-              <td><img [src]="getWeather(c)"></td>
-            </div>
+        </tbody>
+        <tbody *ngFor="let c of classes">
+          <tr *ngIf="c.approved">
+            <td>{{c.name}}</td>
+            <td>{{c.description}}</td>
+            <td><input type="datetime-local" value="{{c.time}}" readonly></td>
+            <td>{{c.location}}</td>
+            <td><a routerLink="{{c.coachUrl}}">{{c.coachName}}</a></td>
+            <td><img [src]="c.weather"></td>
           </tr>
         </tbody>
       </table>
