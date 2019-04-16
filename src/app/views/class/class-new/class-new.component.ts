@@ -29,7 +29,7 @@ export class ClassNewComponent implements OnInit {
       coachUrl: '/coach/' + this.coach.username,
       time: (<HTMLInputElement>document.querySelector('input[type="datetime-local"]')).value,
       location: 'TBD',
-      weather: "http://openweathermap.org/img/w/01d.png",
+      weather: "https://openweathermap.org/img/w/01d.png",
       approved: new Boolean(false),
     };
     this.classService.createClass(this.coachId, this.newClass).subscribe((newClass: any) => {

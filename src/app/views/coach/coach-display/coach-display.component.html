@@ -1,6 +1,6 @@
 <nav class="navbar sticky-top navbar-dark bg-primary">
   <a class="nav-item nav-link" (click)="goBack()" [routerLink]="">
-    <i class="fas fa-chevron-left black-icons"></i></a>
+    <i class="fas fa-chevron-left white-icons"></i></a>
   <span class="navbar-brand">Coach Profile</span>
 </nav>
 
@@ -10,7 +10,7 @@
     <img class="img-responsive img-rounded cl-widget-images" [src]="coach.photo_url" [width]="300">
     <h3>{{coach.firstName}} {{coach.lastName}}</h3>
     <p>Expertise: {{coach.expertise}}</p>
-    <p>Brief: {{coach.brief}}</p>
+    <p>Short Bio: {{coach.brief}}</p>
   </div>
 </div>
 

@@ -24,9 +24,9 @@ export class CoachClassComponent implements OnInit {
       console.log(this.classes);
       this.classes.forEach(c => {
         console.log('try to get weather for: ' + c.name);
-        this.weatherService.getWeather(c.time).subscribe((data: any) => {
-          console.log('weather icon: ' + data);
-          c.weather = data;
+        this.weatherService.getWeather(c.time).subscribe((icon: any) => {
+          console.log('weather icon: ' + icon);
+          c.weather = icon;
         });
       })
     });
