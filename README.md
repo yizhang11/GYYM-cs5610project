@@ -21,6 +21,7 @@
 * On the available classes page, users have the option to view the predicted weather for the time that specific class is held. Thus they are able to make plans ahead depending on this information.
 
 **Choice of API**  
+
 Our team decided to use an API to display the weather on the website. Users can use this information to decide if they want to go to the gym or if they want to participate in indoor or outdoor classes led by coaches. The data are refreshed every time the class page is opened, thus it provides the most update to date weather prediction for the time is the class is held.
 
 **Potential domain objects and their relations**
