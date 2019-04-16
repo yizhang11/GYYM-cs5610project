@@ -51,7 +51,7 @@ module.exports = function (app) {
 
   passport.use('user-local', new LocalStrategy(localStrategy));
 
-  passport.use(new FacebookStrategy(facebookConfig, facebookStrategy));
+  passport.use('facebook', new FacebookStrategy(facebookConfig, facebookStrategy));
 
   function userSerializeUser(user, done) {
     console.log('user serial');

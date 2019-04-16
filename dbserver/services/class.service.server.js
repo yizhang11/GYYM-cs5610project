@@ -121,7 +121,7 @@ module.exports = function (app) {
         const icon = weather.currently.icon;
         iconNum = map.get(icon);
         console.log('weather:' + iconNum);
-        res.json("http://openweathermap.org/img/w/" + iconNum + ".png");
+        res.json("https://openweathermap.org/img/w/" + iconNum + ".png");
       });
     });
     // Http.send();

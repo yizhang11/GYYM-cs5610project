@@ -22,11 +22,14 @@ export class CoachClassComponent implements OnInit {
     this.classService.findClassByCoach(this.coach._id).subscribe((data: any) => {
       this.classes = data;
       console.log(this.classes);
+      this.classes.forEach(c => {
+        console.log('try to get weather for: ' + c.name);
+        this.weatherService.getWeather(c.time).subscribe((data: any) => {
+          console.log('weather icon: ' + data);
+          c.weather = data;
+        });
+      })
     });
-  }
-
-  getWeather(c: any) {
-    return this.weatherService.getWeather(c.time);
   }
 
 }
