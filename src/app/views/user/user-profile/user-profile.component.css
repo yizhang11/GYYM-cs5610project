@@ -7,3 +7,15 @@
   max-height: 100vh;
   margin: auto;
 }
+
+.change {
+  margin-top: 15px;
+}
+
+.bottom {
+  margin-bottom: 50px;
+}
+
+.move {
+  margin-bottom: 20px;
+}

@@ -1,7 +1,7 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-start">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark justify-content-start">
   <a class="nav-item nav-link" (click)="goBack()" >
-    <i class="fas fa-chevron-left black-icons"></i></a>
-  <a class="navbar-brand  white-icons" >Classes</a>
+    <i class="fas fa-chevron-left black-icons white"></i></a>
+  <a class="navbar-brand  white-icons" routerLink="">Classes</a>
 </nav>
 
 <div class="content container-fluid" *ngIf="classes">
@@ -31,8 +31,8 @@
   </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-primary bg-light justify-content-start fixed-bottom">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-start fixed-bottom">
   <a class="nav-item nav-link navblack " routerLink="/intro">
-    <i class="fas fa-home"></i></a>
-  <a class="nav-item nav-link ml-auto navblack" routerLink="/user/profile"><i class="  fas fa-user"></i></a>
+    <i class="fas fa-home white"></i></a>
+  <a class="nav-item nav-link ml-auto navblack" routerLink="/user/profile"><i class="  fas fa-user white"></i></a>
 </nav>

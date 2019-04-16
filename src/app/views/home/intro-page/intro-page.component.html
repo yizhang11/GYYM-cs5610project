@@ -1,37 +1,60 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-start">
-  <a class="nav-item nav-link ml-auto navblack" routerLink="/login"><i class="  fas fa-user"></i></a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark justify-content-start">
+  <a class="nav-item nav-link ml-auto navblack" routerLink="/login"><i class="white  fas fa-user"></i></a>
 </nav>
 
-<div class="content container">
+<div class="content container equip">
   <h1>Our Equipments</h1>
   <table class="table table-borderless">
     <tbody class="imgbox" >
-      <tr><img class="center-fit"
+    <tr><img class="center-fit"
              [src]="'../../../../assets/image/equipment/' + 'equipment1.jpg'"></tr>
-      <tr><img class="center-fit"
-               [src]="'../../../../assets/image/equipment/' + 'equipment2.jpg'"></tr>
-      <tr><img class="center-fit"
-               [src]="'../../../../assets/image/equipment/' + 'equipment3.jpg'"></tr>
-      <tr><img class="center-fit"
-               [src]="'../../../../assets/image/equipment/' + 'equipment4.png'"></tr>
+    <tr><img class="center-fit"
+             [src]="'../../../../assets/image/equipment/' + 'equipment2.jpg'"></tr>
+    <tr><img class="center-fit"
+             [src]="'../../../../assets/image/equipment/' + 'equipment3.jpg'"></tr>
+    <tr><img class="center-fit"
+             [src]="'../../../../assets/image/equipment/' + 'equipment4.png'"></tr>
     </tbody>
   </table>
 
-  <h1>Our Trainers</h1>
-  <table class="table table-borderless" width="100%">
-    <!--Todo fit in a row-->
-    <tbody>
-    <tr class="imgbox">
-      <td width="25%"><img class="img-responsive img-rounded cl-widget-images" routerLink="/coach/coach1"
-               [src]="'../../../../assets/image/trainer/' + 'trainer1.jpeg'"></td>
-      <td width="25%"><img class="img-responsive img-rounded cl-widget-images" routerLink="/coach/coach2"
-               [src]="'../../../../assets/image/trainer/' + 'trainer2.jpeg'"></td>
-      <td width="25%"><img class="img-responsive img-rounded cl-widget-images" routerLink="/coach/coach3"
-               [src]="'../../../../assets/image/trainer/' + 'trainer3.jpeg'"></td>
-      <td width="25%"><img class="img-responsive img-rounded cl-widget-images" routerLink="/coach/coach4"
-               [src]="'../../../../assets/image/trainer/' + 'trainer4.jpeg'"></td>
+  <h1 class="equip">Our Coaches</h1>
+  <!--<table class="table table-borderless" width="100%">-->
+    <!--&lt;!&ndash;Todo fit in a row&ndash;&gt;-->
+    <!--<tbody>-->
+    <!--<tr class="imgbox">-->
+      <!--<td width="25%"><img class="img-responsive img-rounded cl-widget-images coach" routerLink="/coach/coach1"-->
+                           <!--[src]="'../../../../assets/image/trainer/' + 'trainer1.jpeg'"></td>-->
+      <!--<td width="25%"><img class="img-responsive img-rounded cl-widget-images coach" routerLink="/coach/coach2"-->
+                           <!--[src]="'../../../../assets/image/trainer/' + 'trainer2.jpeg'"></td>-->
+      <!--<td width="25%"><img class="img-responsive img-rounded cl-widget-images coach" routerLink="/coach/coach3"-->
+                           <!--[src]="'../../../../assets/image/trainer/' + 'trainer3.jpeg'"></td>-->
+      <!--<td width="25%"><img class="img-responsive img-rounded cl-widget-images coach" routerLink="/coach/coach4"-->
+                           <!--[src]="'../../../../assets/image/trainer/' + 'trainer4.jpeg'"></td>-->
 
-      </tr>
-    </tbody>
-  </table>
-</div>
+    <!--</tr>-->
+    <!--</tbody>-->
+  <!--</table>-->
+  <div class="row pics">
+    <div class="pic">
+      <img class="img-responsive img-rounded cl-widget-images coach" routerLink="/coach/coach1"
+           [src]="'../../../../assets/image/trainer/' + 'trainer2.jpeg'" alt="">
+    </div>
+
+    <div class="pic">
+      <img class="img-responsive img-rounded cl-widget-images coach" routerLink="/coach/coach1"
+           [src]="'../../../../assets/image/trainer/' + 'trainer1.jpeg'" alt="">
+    </div>
+
+    <div class="pic">
+      <img class="img-responsive img-rounded cl-widget-images coach" routerLink="/coach/coach1"
+           [src]="'../../../../assets/image/trainer/' + 'trainer3.jpeg'" alt="">
+    </div>
+
+    <div class="pic">
+      <img class="img-responsive img-rounded cl-widget-images coach" routerLink="/coach/coach1"
+           [src]="'../../../../assets/image/trainer/' + 'trainer4.jpeg'" alt="">
+    </div>
+
+    </div>
+
+  </div>

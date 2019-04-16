@@ -19,18 +19,18 @@ module.exports = function (app) {
   })
   const upload = multer({ storage: storage });
 
-  const facebookConfig = {
+/*  const facebookConfig = {
     clientID: process.env.FACEBOOK_CLIENT_ID,
     clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
     callbackURL: process.env.FACEBOOK_CALLBACK_URL,
     profileFields: ['id', 'displayName', 'name', 'emails', 'picture.type(large)']
-  };
-  // const facebookConfig = {
-  //     clientID: 2271207789606841,
-  //     clientSecret: 'f04e90ee8793a11f1748b92af5e06985',
-  //     callbackURL: '/auth/facebook/callback',
-  //     profileFields: ['id', 'displayName', 'name', 'emails', 'picture.type(large)']
-  // };
+  };*/
+   const facebookConfig = {
+       clientID: 2271207789606841,
+       clientSecret: 'f04e90ee8793a11f1748b92af5e06985',
+       callbackURL: '/auth/facebook/callback',
+       profileFields: ['id', 'displayName', 'name', 'emails', 'picture.type(large)']
+   };
 
   app.post("/api/user", createUser);
   app.get("/api/user", findAllUser);

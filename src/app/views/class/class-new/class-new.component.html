@@ -1,5 +1,5 @@
 <form (ngSubmit)="createClass()" #f="ngForm">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-start">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-start">
           <a class="nav-item nav-link navblack d-sm-none" routerLink="/coach/class">
             <i class="fas fa-chevron-left white-icons move-left"></i></a>
           <a class="navbar-brand pl-4 " [routerLink]="">New Class</a>
@@ -9,7 +9,7 @@
 
       <div class="container">
         <div class="form-group">
-          <label for="website-name">Name</label>
+          <label for="website-name" class="top">Name</label>
           <input type="text" id="website-name" name="classname" placeholder="Name" class="form-control" ngModel required #classname="ngModel">
         </div>
           <span class="help-block" *ngIf="!classname.valid">
@@ -22,11 +22,11 @@
         </div>
         <div class="form-group">
           <label for="class-time">Time</label>
-          <input type="datetime-local" id="class-time"
+          <input type="datetime-local" id="class-time right"
                  name="meeting-time" value="{{currentTime}}" min="{{currentTime}}">
         </div>
       </div>
-  <nav class="navbar fixed-bottom bg-primary navbar-dark justify-content-end">
+  <nav class="navbar fixed-bottom bg-dark navbar-dark justify-content-end">
     <div class="container-fuild">
       <a routerLink="/coach/profile" class="navbar-link navbar-text float-right ">
         <i class="fas fa-user white-icons"></i>

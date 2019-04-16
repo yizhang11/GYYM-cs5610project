@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbar-dark bg-primary">
+<nav class="navbar sticky-top navbar-dark bg-dark">
   <a class="nav-item nav-link ml-auto" routerLink="/intro">
     <i class="fas fa-home white-icons"></i></a>
 </nav>
@@ -8,18 +8,18 @@
     {{errorMsg}}
   </div>
 
-  <h1>Login</h1>
+  <h1 class="text">Login</h1>
   <form (ngSubmit)="login()" #f="ngForm">
 
     <div class="form-group">
-      <label for="login-type">Login as: </label>
+      <!--<label for="login-type" type="log">Login as: </label>-->
       <div id="login-type">
-        <input type="radio" id="admin" name="type" value="admin">
-        <label for="admin">Admin</label>
-        <input type="radio" id="coach" name="type" value="coach">
-        <label for="coach">Coach</label>
-        <input type="radio" id="user" name="type" value="user" checked>
-        <label for="user">User</label>
+        <input class="choice" type="radio" id="admin" name="type" value="admin">
+        <label class="choice" for="admin">Admin</label>
+        <input class="choice" type="radio" id="coach" name="type" value="coach">
+        <label class="choice" for="coach">Coach</label>
+        <input class="choice" type="radio" id="user" name="type" value="user" checked>
+        <label class="choice" for="user">User</label>
       </div>
 
     </div>
@@ -48,8 +48,8 @@
 
     <div class="form-group">
       <a href="/facebook/login" class="btn btn-primary btn-block">
-        <span class="fab fa-facebook-f"></span>
-        Facebook as User
+        <i class="fab fa-facebook"></i>
+        Log in with Facebook
       </a>
     </div>
   </form>

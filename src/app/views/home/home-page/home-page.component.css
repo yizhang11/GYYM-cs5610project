@@ -8,3 +8,11 @@
   display: block;
   background-attachment: fixed;
 }
+
+.learnMore {
+  margin-top: 500px;
+}
+
+.wrapper {
+  text-align: center;
+}

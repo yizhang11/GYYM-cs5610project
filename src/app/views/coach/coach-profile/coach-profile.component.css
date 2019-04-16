@@ -7,3 +7,16 @@
   max-height: 100vh;
   margin: auto;
 }
+
+.profile {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.white {
+  color: white;
+}
+
+.bot {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,12 @@
+.choice {
+    margin-right: 10px;
+}
+
+.log {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.text {
+    margin-top: 15px;
+}
